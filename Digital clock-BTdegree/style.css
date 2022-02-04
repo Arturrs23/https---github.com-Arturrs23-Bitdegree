@@ -1,0 +1,145 @@
+* {
+
+    margin: 0;
+  
+    padding: 0;
+  
+  }
+  
+  html,
+  
+  body {
+  
+    display: grid;
+  
+    place-items: center;
+  
+    background-color: #ffffff;
+  
+  }
+  
+  #dayContainer {
+  
+    font-size: 40px;
+  
+    font-weight: 600;
+  
+    letter-spacing: 3px;
+  
+    border: 7px solid #303030;
+  
+    border-radius: 10px;
+  
+    margin: 20px;
+  
+    font-family: "Noto Sans JP", sans-serif;
+  
+    padding: 15px;
+  
+    background-color: #20bf55;
+  
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+    color: #303030;
+  
+  }
+  
+  .container {
+  
+    height: 120px;
+  
+    width: 550px;
+  
+    position: relative;
+  
+   
+  
+    border-radius: 10px;
+  
+    cursor: default;
+  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+  }
+  
+  .container .digitalClock,
+  
+  .container {
+  
+    position: absolute;
+  
+    top: 28%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+   
+  
+  }
+  
+  .container .digitalClock {
+  
+    top: 50%;
+  
+    height: 105px;
+  
+    width: 535px;
+  
+    background: white;
+  
+    border-radius: 6px;
+  
+    text-align: center;
+  
+  }
+  
+  /* time itself numbers */
+  
+  .digitalClock #time {
+  
+    line-height: 85px;
+  
+    color: #fff;
+  
+    font-size: 80px;
+  
+    font-weight: 600;
+  
+    letter-spacing: 1px;
+  
+    font-family: "Rubik", sans-serif;
+  
+    background-color: #0cbaba;
+  
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  
+    
+  
+    -webkit-background-clip: text;
+  
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+  #Title {
+  
+    font-family: "Yellowtail", cursive;
+  
+    font-size: 30px;
+  
+    font-style: oblique;
+  
+    font-weight: bold;
+  
+  }
